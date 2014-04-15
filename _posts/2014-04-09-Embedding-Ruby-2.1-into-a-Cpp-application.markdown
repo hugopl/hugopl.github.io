@@ -32,10 +32,10 @@ int main()
 }
 {% endhighlight %}
 
-<em>ruby_options</em> receive argc/argv as parameters, they are used like the Ruby interpreter would do, a void pointer is returned. The void pointer returned is a Node, it represents the Ruby code compiled and ready to run.
+`ruby_options` receive argc/argv as parameters, they are used like the Ruby interpreter would do, a void pointer is returned. The void pointer returned is a Node, it represents the Ruby code compiled and ready to run.
 
-Notice <em>"-enil"</em>, if you don't pass any argument the Ruby VM will crash without further explanation. In my example I want to execute some Ruby code located into a string, not a separated file, so I can't pass the file path into options array because there's no file, so <em>-enil</em> says <em>"Execute this code: 'nil'"</em>.
+Notice _"-enil"_, if you don't pass any argument the Ruby VM will crash without further explanation. In my example I want to execute some Ruby code located into a string, not a separated file, so I can't pass the file path into options array because there's no file, so _-enil_ says _"Execute this code: 'nil'"_.
 
-You can use the void pointer returned by <em>ruby_options</em> into two functions, <em>ruby_run_node</em> and <em>ruby_exec_node</em>, the difference is that <em>ruby_run_node</em> executes the node then clean up the VM, so any other call to the Ruby C-API will cause a crash, <em>ruby_exec_node</em> just execute the node and keeps the VM alive for a future use.
+You can use the void pointer returned by `ruby_options` into two functions, `ruby_run_node` and `ruby_exec_node`, the difference is that `ruby_run_node` executes the node then clean up the VM, so any other call to the Ruby C-API will cause a crash, `ruby_exec_node` just execute the node and keeps the VM alive for a future use.
 
-Now with all in place, you can call <em>rb_eval_string_protect</em> to execute some ruby code and all other rb_* functions found on ruby.h to do whatever do you want, at least those rb_* functions have some documentation into <a href="https://github.com/ruby/ruby/blob/trunk/README.EXT">README.EXT</a> file found on Ruby source code.
+Now with all in place, you can call `rb_eval_string_protect` to execute some ruby code and all other `rb_`* functions found on ruby.h to do whatever do you want, at least those `rb_`* functions have some documentation into <a href="https://github.com/ruby/ruby/blob/trunk/README.EXT">README.EXT</a> file found on Ruby source code.
