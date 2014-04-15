@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Embedding Ruby 2.1 into a C++ application"
-categories: WebKit
+categories: ruby
 ---
 
 I'm writing this as a reminder to myself, first of all  because there is no documentation about how to embedded Ruby into a C++ application despite of the Ruby interpreter source files, secondly because when you start a sentence saying "first.." you need a second sentence saying "secondly...".

@@ -5,16 +5,6 @@
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/css/syntax.css">
         <link rel="stylesheet" href="/css/main.css">
-
-        <script type="text/javascript">
-        (function () {
-            var s = document.createElement('script');
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//hugopl.disqus.com/count.js';
-            document.head.appendChild(s);
-        }());
-        </script>
     </head>
     <body>
         <div id="contents">
@@ -26,5 +16,14 @@
         </div>
         
         <footer>Copyright 2009-2014 (c) Hugo Parente Lima</footer>
+
+        <script type="text/javascript">
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//hugopl.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        </script>
     </body>
 </html>
