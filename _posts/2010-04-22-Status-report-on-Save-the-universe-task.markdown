@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Status report on \"Save the universe\" task"
-categories: build_tool c++ development meique
+tags: build_tool c++ development meique
 ---
 I'm talking about my pet project called meique, yes, this is yet another build tool.
 

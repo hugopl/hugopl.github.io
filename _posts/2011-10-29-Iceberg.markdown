@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iceberg!"
-categories: development Iceberg icecc KDE Qt
+tags: development Iceberg icecc KDE Qt
 ---
 Dear icecream users and KDE haters,
 

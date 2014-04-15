@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meique released"
-categories: build_tool c++ development meique
+tags: build_tool c++ development meique
 ---
 By a release I mean, I tagged the git repository with some version number (0.8), so you still need to download the sources from git if you want to test it. I wont spend my free time to create a website nor distro packages very soon, because I think that for while is better to spend my time coding than creating cosmetic things for a tool not production ready yet.
 

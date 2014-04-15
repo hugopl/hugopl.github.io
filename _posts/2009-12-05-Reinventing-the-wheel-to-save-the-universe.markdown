@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reinventing the wheel to save the universe!"
-categories: build_tool c++ development lua meique
+tags: build_tool c++ development lua meique
 ---
 I admit myself, I have a bit of the "Not written by me" syndrome, but I guess that this time this is not a side effect of this developer disease, it's just because every build tool in this planet sux in a way or another, so I decided to write my own build tool, yes... the build tool of my dreams!
 
