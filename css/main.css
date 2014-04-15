@@ -80,6 +80,7 @@ pre {
     padding: 10px;
     box-shadow: inset 0px 0px 9px 0px #666;
     border-radius: 5px;
+    text-indent: 0px;
 }
 
 .date {
@@ -92,6 +93,11 @@ pre {
     padding: 15px;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+li {
+    text-indent: 0px;
 }
 
 .postbar {
