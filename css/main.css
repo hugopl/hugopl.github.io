@@ -94,7 +94,11 @@ pre {
     margin-bottom: 20px;
 }
 
-/*a.comment_btn:hover {
+.postbar {
+    text-align: right;
+}
+
+a.comment_btn:hover {
     background-image: url(../comment.png), linear-gradient(rgb(47, 150, 180), rgb(91, 192, 222));
 }
 
@@ -123,5 +127,5 @@ a.comment_btn {
     text-decoration: none solid rgb(255, 255, 255);
     text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
     vertical-align: middle;
-}*/
+}
 

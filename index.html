@@ -10,5 +10,7 @@ title:
 {{ post.content }}
 <!--     <a class="comment_btn">Comment</a> -->
     </div>
-    <a href="{{ post.url }}#disqus_thread">Comment</a>
+    <div class="postbar">
+        <a class="comment_btn" href="{{ post.url }}#disqus_thread">Comment</a>
+    </div>
 {% endfor %}
