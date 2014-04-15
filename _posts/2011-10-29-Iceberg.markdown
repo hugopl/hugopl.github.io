@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Iceberg!"
+categories: development Iceberg icecc KDE Qt
+---
+Dear icecream users and KDE haters,
+
+Don't include myself in this group, I'm a long time KDE user and I don't hate it despite of some annoying bugs, but I'm a heavy icecream user anyway :-).
+
+What I have to say isn't exactly about icecream, but about icemon, the nice GUI used to monitor icecream networks. But what's wrong with it? Nothing! I'm a KDE user and the KDE dependency doesn't bother me at all, but days ago tired of listen people (non-KDE users) complaining about the KDE dependency I decided to stop with all this and strip the KDE dependency from icemon even if the final result wont provide much difference to me.
+
+After 1 hour of work I could finally say: "Mission accomplished!" and went to tell some coworkers at INdT that they owe me some beers. Some commits later to polish the fork and done... the Qt version is identical to the KDE one but without the kdelibs dependency.
+
+This new baby is now called Iceberg and lives happy on <a href="https://github.com/hugopl/Iceberg/">Git-Hub</a>, the name was a suggestion from <a href="http://www.setantas.net/blog/">setanta</a>, just a word similar to icemon, nothing special.
+
+So if you use icecream and don't want to install kdelibs to see your icecream network, enjoy!
