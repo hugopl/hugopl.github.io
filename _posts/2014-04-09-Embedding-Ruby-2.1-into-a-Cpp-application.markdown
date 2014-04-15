@@ -8,7 +8,7 @@ I'm writing this as a reminder to myself, first of all  because there is no docu
 
 The fast way to explain what you need to do:
 
-{% highlight cpp linenos %}
+{% highlight cpp %}
 #include <ruby.h>
 
 int main()
