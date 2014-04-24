@@ -81,7 +81,6 @@ pre {
     padding: 10px;
     box-shadow: inset 0px 0px 9px 0px #666;
     border-radius: 5px;
-    text-indent: 0px;
 }
 
 code {
@@ -100,11 +99,10 @@ code {
     padding: 15px;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 20px;
-    text-indent: 20px;
 }
 
-li {
-    text-indent: 0px;
+#contents p {
+    text-indent: 20px;
 }
 
 .postbar {
@@ -140,6 +138,5 @@ a.comment_btn {
     text-decoration: none solid rgb(255, 255, 255);
     text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
     vertical-align: middle;
-    text-indent: 0px;
 }
 
