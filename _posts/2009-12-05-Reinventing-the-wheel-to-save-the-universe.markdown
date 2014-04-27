@@ -9,7 +9,7 @@ Before start to talk about it, I like to answer why not X? why not Y? Ok, let's 
 
 <h2>Why not Autotools?</h2>
 
-Go fuck yourself.... and GET OUT OF HERE!!!!
+If you really like Autotools, sorry, this post isn't for you. Bye!
 
 <h2>Why not qMake?</h2>
 
