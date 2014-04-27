@@ -20,6 +20,10 @@ footer {
     color: #333;
 }
 
+img {
+    text-decoration: none;
+    border: none;
+}
 
 .header h1 {
     text-align: center;
