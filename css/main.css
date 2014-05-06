@@ -80,6 +80,13 @@ img {
     float: right;
 }
 
+.post img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888;
+    margin: auto;
+    display: block;
+}
+
 h1 {
     margin-top: 0px;
     font-size: 32px;
