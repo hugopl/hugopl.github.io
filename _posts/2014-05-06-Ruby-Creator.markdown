@@ -44,7 +44,7 @@ This is simple, type: "def foobar", hit enter and see the cursor when you expect
 
 The features I want to write ASAP are:
 
-* Type "def foobar", "if foobar", etc, hit enter and the "end" keyword is written for you.
+* <s>Type "def foobar", "if foobar", etc, hit enter and the "end" keyword is written for you.</s> (done!)
 * Variable use highlight: leave the cursor on a local variable and all local variables in the scope are highlighted.
 * Basic auto-completion, for attributes is easy, but for method invocations some times is impossible due to the nature of the Ruby language.
 * Code navigation via F2: hit F2 when the cursor is on a method and go to the method. As sometimes is impossible to know the instance type, a small combo would appear like happens when this feature is triggered on a virtual method in C++.
