@@ -11,12 +11,12 @@ Meique is slower than tup, on the other hand it doesn't need the "complicated" t
 
 ## Metodology
 
-The metodology is very similar to the one used by the tup benchmak, just the code generator differ, so there's a dummy C project with 4 shared libraries, and a main.c that uses them all, the number of files per shared libraries increase in each round, first 10 then 100, 1000 and 10000. i.e. 41, 401, 4001 and a 40001 files project. On each round the following operations are made:
+The metodology is very similar to the one used by the tup benchmak, just the code generator differ, so there's a dummy C project with 4 shared libraries, and a main.c that uses them all, the number of files per shared libraries increase in each round, first 10 then 100, 1000 and 10000. i.e. 41, 401, 4001 and a 40001 files project. On each round the following operations are done:
 
 * Clean build.
-* Touch a header.
-* Touch a .c file.
-* Do nothing.
+* Touch a header, then trigger a build.
+* Touch a .c file, then trigger a build.
+* Do nothing, then trigger a build.
 
 Except for clean build, all other operations are repeated 3 times and the mean is used as result, there are also some other details that you can check in the [run-test.sh](https://github.com/Meique/Meique/tree/master/benchmark) script.
 
@@ -26,7 +26,7 @@ The computer used was a 8 cores intel i7 machine with 16GB on a hardware enabled
 
 For my surprise, meique is faster than CMake/make and as expected it's slower than CMake/ninja. Since speed is a concern but not the meique main focus as it's on ninja I consider the results very good.
 
-Ninja isn't showing in the results due to a bug, it can't link a shared library with 10000 files due to the very long argument list, meique had this very same bug.
+Ninja isn't showing in the results due to a bug, it can't link a shared library with 10000 files due to the very long argument list, meique had this very same bug, now fixed.
 
 <script type="text/javascript" src="/highcharts.js"></script>
 <script type="text/javascript">
