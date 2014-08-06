@@ -6,7 +6,7 @@ tags: Ruby Capistrano deploy git
 
 Capistrano 2 had a feature that enabled deploy by copying the project tarball to the remote server instead of _git cloning it_ from the remote server, Capistrano 3 doesn't had this feature. The problem of cloning it from the remote server is that sometimes the remote server doesn't have access to the git repository and adding access to it is not desirable.
 
-Just a note, or rant: Capistrano isn't a good example of well documented project and Ruby doesn't have clear semantic on what is public API and what should be considered private API, so I'm not 100% I made a hack or a honest use of their API, this works with Capistrano 3.2.1.
+Just a note, or rant: Capistrano isn't a good example of well documented project and Ruby doesn't have clear semantic on what is public API and what should be considered private API, so I'm not 100% what I did is a hack or a honest use of their API. Anyway this works with Capistrano 3.2.1.
 
 ## The code, hack, solution, whatever you call it
 
