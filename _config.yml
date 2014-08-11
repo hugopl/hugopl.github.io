@@ -1,3 +1,5 @@
-name: Your New Jekyll Site
+name: hugopl devblog
+description: hugopl writes about his pet projects and general software development
+url: http://hugopl.github.io/
 markdown: redcarpet
 pygments: true
