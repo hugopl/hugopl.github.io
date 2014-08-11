@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Meique 1.0 is there"
+tags: meique
+---
+
+[Meique](http://www.meique.org), my oldest pet project that still alive, was finally considered ready to get a 1.0 tag!
+
+Meique is a C/C++ build system that aim to be simple to use, fast enough and whatever I would want. The project first commit on github dates from December 2009, and now after 5 years and 359 commits, it's here, [Enjoy](https://github.com/Meique/Meique/releases/tag/v1.0)!
+
+
+
