@@ -121,6 +121,11 @@ img {
     display: block;
 }
 
+.post img.flat {
+    border-radius: 0px;
+    box-shadow: none;
+}
+
 h1 {
     margin-top: 0px;
     font-size: 32px;
