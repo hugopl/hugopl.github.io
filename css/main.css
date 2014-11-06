@@ -74,10 +74,20 @@ img {
     color: #999;
 }
 
+.header .imgcontainer {
+    float: right;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.header a i {
+    color: #999;
+    text-shadow: 0px 0px 20px #888;
+}
+
 .header img {
     border-radius: 50%;
     box-shadow: 0px 0px 10px #888;
-    float: right;
 }
 
 .post img {
