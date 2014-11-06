@@ -2,25 +2,25 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('JosefinSans-Light.woff') format('woff');
+  src: url('../fonts/JosefinSans-Light.woff') format('woff');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('JosefinSans.woff') format('woff');
+  src: url('../fonts/JosefinSans.woff') format('woff');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('JosefinSans-Bold.woff') format('woff');
+  src: url('../fonts/JosefinSans-Bold.woff') format('woff');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: italic;
   font-weight: 400;
-  src: url('JosefinSans-Italic.woff') format('woff');
+  src: url('../fonts/JosefinSans-Italic.woff') format('woff');
 }
 
 html {
