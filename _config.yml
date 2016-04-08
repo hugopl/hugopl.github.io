@@ -1,6 +1,6 @@
 name: hugopl devblog
 description: hugopl writes about his pet projects and general software development
 url: http://hugopl.github.io/
-highlighter: pygments
+highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
