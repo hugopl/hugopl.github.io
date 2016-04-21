@@ -4,3 +4,4 @@ url: http://hugopl.github.io/
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
+future: true
