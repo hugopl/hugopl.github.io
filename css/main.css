@@ -60,6 +60,10 @@ img {
     text-shadow: 0px 0px 20px #888;
 }
 
+.header a i:hover {
+    color: black;
+}
+
 .header img {
     border-radius: 50%;
     box-shadow: 0px 0px 10px #888;
@@ -121,7 +125,6 @@ pre {
 code {
     font-family: "Josefin Sans";
     font-weight: 400;
-    font-style: italic;
 }
 
 .date {
