@@ -1,9 +1,9 @@
 
 For the ones that don't know, [Crystal](https://crystal-lang.org/) was a 2018 hype (however the project exists since 2012) that I only found in 2019, basically it is a language very similar to Ruby in syntax, but that compiles to machine code and is statically type checked.
 
-I was about to start a pet project using Raspberry Pi and Ruby when I noticed the existence of Crystal, so I used the occasion to learn Crystal, just one problem: There's no crystal in archlinux for raspberry, or at least my efforts to find one wasn't enough.
+I was about to start a pet project using Raspberry Pi and Ruby when I noticed the existence of Crystal, so I used the occasion to learn Crystal, just one problem: There's no crystal in archlinux for raspberry, or at least my efforts to find one weren't enough.
 
-Not a problem, let's compile the Crystal compiler into raspberry! This would be amazing, but Crystal compiler is written in Crystal itself, so we have the [egg-chicken](https://en.wikipedia.org/wiki/Chicken_or_the_egg) problem here, the answer, cross compiling!
+Not a problem, let's compile the Crystal compiler into raspberry! This would be amazing, but Crystal compiler is written in Crystal itself, so we have the [egg-chicken](https://en.wikipedia.org/wiki/Chicken_or_the_egg) problem here, the answer? cross compiling!
 
 ## Cross compiling
 
