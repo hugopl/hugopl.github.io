@@ -4,7 +4,7 @@ title:  "Embedding Ruby 2.1 into a C++ application"
 tags: ruby
 ---
 
-I'm writing this as a reminder to myself, first of all  because there is no documentation about how to embedded Ruby into a C++ application despite of the Ruby interpreter source files, secondly because when you start a sentence saying "first.." you need a second sentence saying "secondly...".
+I'm writing this as a reminder to myself, first of all  because there is no documentation about how to embedded Ruby into a C++ application besides the Ruby interpreter source files, secondly because when you start a sentence saying "first.." you need a second sentence saying "secondly...".
 
 The fast way to explain what you need to do:
 

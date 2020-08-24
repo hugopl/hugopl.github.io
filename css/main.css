@@ -118,8 +118,9 @@ pre {
     font-family: monospace;
     font-size: 12px;
     padding: 10px;
-    box-shadow: inset 0px 0px 9px 0px #666;
+    box-shadow: inset 0px 0px 5px 0px #666;
     border-radius: 5px;
+    overflow-x: auto;
 }
 
 code {
