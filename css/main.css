@@ -23,6 +23,11 @@ img {
     border: none;
 }
 
+blockquote {
+  border-left: 3px solid #990000;
+  padding-left: 10px;
+}
+
 .header img {
     transition: 1s ease-in-out;
 }
@@ -116,7 +121,7 @@ h2 {
 
 pre {
     font-family: monospace;
-    font-size: 12px;
+    font-size: 13px;
     padding: 10px;
     box-shadow: inset 0px 0px 5px 0px #666;
     border-radius: 5px;
@@ -126,6 +131,11 @@ pre {
 code {
     font-family: "Josefin Sans";
     font-weight: 400;
+}
+
+.language-plaintext {
+    font-family: monospace;
+    font-size: 13px;
 }
 
 .date {
@@ -179,3 +189,17 @@ a.comment_btn {
     vertical-align: middle;
 }
 
+kbd {
+    text-indent: 0;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 55%;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
