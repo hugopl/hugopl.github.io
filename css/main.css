@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap');
+
 html {
     background-color: #e9e9e9;
     font-family: "Josefin Sans";
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
@@ -105,6 +108,7 @@ a {
     color: #990000;
     text-decoration: none;
     transition: color 1s ease;
+    font-weight: 400;
 }
 
 a:hover {
@@ -114,7 +118,6 @@ a:hover {
 
 h2 {
     font-size: 23px;
-    font-weight: normal;
     font-weight: 400;
     color: #990000;
 }
