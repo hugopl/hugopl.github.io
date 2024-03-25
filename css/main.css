@@ -206,3 +206,10 @@ kbd {
     padding: 2px 4px;
     white-space: nowrap;
 }
+
+.info {
+  border: 1px solid #00800080;
+  border-radius: 3px;
+  background-color: #00800050;
+  padding: 6px;
+}

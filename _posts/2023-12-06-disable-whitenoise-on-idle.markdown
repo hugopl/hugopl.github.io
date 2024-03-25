@@ -4,6 +4,11 @@ title:  "Disabling pipewire whitenoise on idle"
 tags: pipewire wireplumber
 ---
 
+<div class="info">
+<strong>Update from 2024-03-25</strong><br>
+Wireplumber changed and nothing I wrote here works anymore, but one thing still... wireplumber is horrible to configure.
+</div>
+
 I'm writing this here so I "don't forget".
 
 My speakers emit a annoying whitenoise when they are turned on but there's no signal, the problem is that my ArchLinux setup

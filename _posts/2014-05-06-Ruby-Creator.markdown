@@ -54,7 +54,7 @@ The features I want to write ASAP are:
 Hmmm, there's no docs at all, so consider the next lines as a documentation:
 
 * Clone the QtCreator sources and go to the tag v3.1.0.
-* Compile and install me [beloved build system](http://meique.org/), there's a [AUR](https://aur.archlinux.org/packages/meique-git/) package for it.
+* Compile and install my [beloved build system](http://meique.org/), there's a [AUR](https://aur.archlinux.org/packages/meique-git/) package for it.
 * Clone the plugin on [github](https://github.com/hugopl/RubyCreator).
 * On the plugin directory, type:
 {% highlight bash %}
